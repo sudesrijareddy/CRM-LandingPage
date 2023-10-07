@@ -1,0 +1,33 @@
+.userlist {
+    margin: 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.usercard{
+    background-color: #FAFAFA;
+    border-radius: 7px;
+    padding-top: 10px;
+    margin: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.usercard h2{
+    font-size: 30px;
+    color: lightslategray;
+}
+.usercard h5{
+    font-size: 22px;
+    font-weight: 600;
+    color: lightcoral;
+}
+.usercard p{
+    font-size: 18px;
+    color: lightslategray;
+    word-wrap: break-word;
+}
+.heading1{
+    font-size: 45px;
+    font-weight: 600;
+    color: #F5B041;
+    padding: 50px 0px;
+}

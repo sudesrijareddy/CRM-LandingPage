@@ -1,0 +1,75 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: auto;
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    flex-grow: 2;
+}
+.brand h5{
+    font-size: 30px;
+    color: aliceblue;
+    cursor: pointer;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 3;
+    font-size: 18px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-grow: 2;
+}
+.button{
+    font-size: 20px;
+    padding: 7px 15px;
+    margin: 0px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.mobile{
+  display: none;
+}
+.mobile i{
+  color: #fff;
+}
+
+@media screen and (max-width: 769px){
+  .navlinks{
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 77px;
+    right: -300px;
+    height: 100vh;
+    background-color: #2a3239;
+    box-shadow: 0 40px 60px rgba(0,0,0,0.1) ;
+    padding: 40px 0 0 10px;
+}
+.navlinks.active{
+  right: 0px;
+}
+.mobile{
+  display: block;
+}
+.mobile i{
+  font-size: 24px;
+  cursor: pointer;
+  padding-right: 20px;
+}
+.brand{
+  padding-right: 70px;
+}
+  }
